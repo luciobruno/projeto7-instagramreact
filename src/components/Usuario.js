@@ -3,7 +3,7 @@ import React from "react";
 export default function Usuario() {
 
     const [imagem,setImagem] = React.useState("https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png");
-    const [nomeDeUsuario,setNomeDeUsuario] = React.useState("");
+    const [nomeDeUsuario,setNomeDeUsuario] = React.useState("user_name");
 
     function trocarImagem(){
         const novaFoto = prompt("Insira o link da sua nova foto");
