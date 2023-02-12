@@ -11,23 +11,20 @@ export default function Post(props) {
     const [numeroLike, setNumeroLike] = React.useState(Number(props.likes));
 
     function salvaPost(){
-
         if(salvarPost === ""){
             setTirarSalvo("");
             setSalvarPost("hidden");
         }else{
             setSalvarPost("");
             setTirarSalvo("hidden");
-        };
-
+        }
     }
 
     function like(){  
-
         if(colocarLike === ""){
             setColocarLike("hidden");
             setTirarLike("");
-            setNumeroLike(numeroLike+1)
+            setNumeroLike(numeroLike+1);
         }else{
             setColocarLike("");
             setTirarLike("hidden");
@@ -85,4 +82,4 @@ export default function Post(props) {
             </div>
         </div>
     );
-};
+}

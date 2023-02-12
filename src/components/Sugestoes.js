@@ -8,7 +8,7 @@ export default function Sugestoes() {
         {src:"assets/img/razoesparaacreditar.svg",nome:"razoesparaacreditar"},
         {src:"assets/img/adorable_animals.svg",nome:"adorable_animals"},
         {src:"assets/img/smallcutecats.svg",nome:"smallcutecats"}
-    ]
+    ];
 
     return (
         <div className="sugestoes">
@@ -19,4 +19,4 @@ export default function Sugestoes() {
             {listaSugestoes.map(sugestao => Sugestao(sugestao))}
         </div>
     );
-};
+}

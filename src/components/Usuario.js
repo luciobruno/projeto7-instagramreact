@@ -8,21 +8,17 @@ export default function Usuario() {
     function trocarImagem(){
         const novaFoto = prompt("Insira o link da sua nova foto");
 
-        if(!novaFoto){
-            
-        }else{
+        if(novaFoto !== "" && novaFoto !== null && novaFoto !== undefined){
             setImagem(novaFoto);
         }
-    };
+    }
 
     function trocarNomeDeUsuario(){
         const novoNome = prompt("Insira seu nome de usuário");
-        if(!novoNome){
-            
-        }else{
+        if(novoNome !== "" && novoNome !== null && novoNome !== undefined){
             setNomeDeUsuario(novoNome);
         }
-    };
+    }
 
     return (
         <div className="usuario">
@@ -35,4 +31,4 @@ export default function Usuario() {
             </div>
         </div>
     );
-};
+}

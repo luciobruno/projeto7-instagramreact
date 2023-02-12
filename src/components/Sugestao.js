@@ -12,4 +12,4 @@ export default function Sugestao(props) {
             <div className="seguir">Seguir</div>
         </div>
     );
-};
+}

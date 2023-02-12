@@ -9,4 +9,4 @@ export default function Storie(props) {
             </div>
         </div>
     );
-};
+}

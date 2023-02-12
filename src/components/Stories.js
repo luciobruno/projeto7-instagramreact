@@ -11,7 +11,7 @@ export default function Stories() {
         { src: "assets/img/respondeai.svg", usuario: "respondeai" },
         { src: "assets/img/filomoderna.svg", usuario: "filomoderna" },
         { src: "assets/img/memeriagourmet.svg", usuario: "memeriagourmet" }
-    ]
+    ];
 
     return (
         <div className="stories">
@@ -21,4 +21,4 @@ export default function Stories() {
             </div>
         </div>
     );
-};
+}
