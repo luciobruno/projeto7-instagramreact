@@ -305,3 +305,19 @@ ion-icon {
   color: black;
 }
 
+.center-1{
+  position: relative;
+  margin-right: -6px;
+}
+
+.icons{
+  display: flex;
+}
+
+.red{
+  color: red;
+}
+
+.hidden{
+  display: none;
+}
